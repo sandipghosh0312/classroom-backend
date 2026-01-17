@@ -9,7 +9,7 @@
     "moduleResolution": "node",
 
     /* Project structure */
-
+    "rootDir": "src",
     "outDir": "dist",
 
     /* Type safety */
@@ -29,7 +29,7 @@
 
     /* Environment types */
     "types": ["node"],
-    "noEmit": true
+    "noEmit": false
   },
-  "include": ["src", "drizzle.config.ts"]
+  "include": ["src"]
 }
